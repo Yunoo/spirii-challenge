@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": false,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@shared/data": [
+        "libs/data/src"
+      ],
+      "@shared/data/*": [
+        "libs/data/src/*"
+      ]
+    }
+  }
+}

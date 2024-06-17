@@ -1,0 +1,31 @@
+{
+  "printWidth": 120,
+  "useTabs": false,
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": "*.ts|*.tsx",
+      "options": {
+        "parser": "typescript"
+      }
+    },
+    {
+      "files": "*.md",
+      "options": {
+        "parser": "markdown"
+      }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
+}
